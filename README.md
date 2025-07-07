@@ -2,7 +2,14 @@
 
 A React TypeScript application that consumes REST and GraphQL APIs to display an interactive user catalog with their posts.
 
-## 🚀 Features
+Reponsive
+
+![Captura de pantalla (584)](https://github.com/user-attachments/assets/b27e6205-7807-4c02-8c1c-8e96ce9666ab)
+![Captura de pantalla (585)](https://github.com/user-attachments/assets/eb97ee31-58d5-4f87-a65a-3c10a41c3e22)
+![Captura de pantalla (586)](https://github.com/user-attachments/assets/8f9f06ed-6e13-46c4-870c-9338d1ae9b7e)
+
+## 🚀 Features!
+
 
 - **User listing**: Fetched from JSONPlaceholder REST API
 - **User details**: Complete information with responsive design
