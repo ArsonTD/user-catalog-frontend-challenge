@@ -59,30 +59,7 @@ http://localhost:3000
 
 ## 🏗 Project Architecture
 
-\`\`\`
-src/
-├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout component
-│   ├── page.tsx           # Home page component
-│   └── globals.css        # Global styles
-├── components/            # React components
-│   ├── user-catalog.tsx   # Main catalog component
-│   ├── user-list.tsx      # User list container
-│   ├── user-card.tsx      # Individual user card
-│   ├── user-details.tsx   # User details view
-│   ├── user-posts.tsx     # User posts component
-│   └── search-bar.tsx     # Search input component
-├── hooks/                 # Custom React hooks
-│   └── use-users.ts       # Users data management hook
-├── services/              # API service layer
-│   ├── api-service.ts     # REST API service
-│   └── graphql-service.ts # GraphQL service
-├── store/                 # Global state management
-│   └── user-store.ts      # Zustand store
-└── types/                 # TypeScript type definitions
-    ├── user.ts            # User types and schemas
-    └── post.ts            # Post types and schemas
-\`\`\`
+The architecture I wanted to implement is called layered modular architecture, inspired by Clean Architecture.
 
 ## 🔧 Implementation Details
 
