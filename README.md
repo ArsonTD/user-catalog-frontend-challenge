@@ -340,22 +340,23 @@ npm run type-check
 ### API References
 - [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 - [GraphQL Zero API](https://graphqlzero.almansi.me/)
-
+- 
+-----------------------------------------------------------------------------------------------------------------------------------------
 ## 👨‍💻 Development Notes
 
 ### Code Organization Philosophy
-- **Single Responsibility**: Each component has one clear purpose
-- **Composition over Inheritance**: Flexible component architecture
-- **Separation of Concerns**: Logic, UI, and data layers separated
-- **DRY Principle**: Reusable hooks and utilities
+- Each component has a clear responsibility.
+- Composition is prioritized over inheritance.
+- Separation of logic, UI, and data.
+- Use of reusable utilities and hooks (DRY principle).
 
 ### Performance Considerations
-- **Bundle size**: Optimized imports and tree shaking
-- **Runtime performance**: Efficient re-renders and memoization
-- **Network efficiency**: Minimal API calls and caching
-- **User experience**: Progressive loading and feedback
+- Optimized imports and package reduction.
+- Avoid unnecessary re-rendering (memo, useCallback).
+- Minimize API calls and cache usage.
+- Meticulous user experience (UX): progressive loading and visual feedback.
 
----
+- ------------------------------------------------------------------------------------------------------------------------------------------
 **Developed with passion for the technical challenge of front-end development**
 
 *This project demonstrates modern development practices with React, a degree of TypeScript proficiency, API integration skills, and attention to detail in the user experience.*
